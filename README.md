@@ -9,7 +9,7 @@ MQTT keywords addressed
 * Certificate Validation based on bundled root certififcates
 
 ## Flash the pre-built firmware
-* Point your browser to [https://aschiffler.github.io/esp32-mqtt-node](https://aschiffler.github.io/esp32-mqtt-node)
+* Point your browser to [https://hpk-at-git.github.io/esp32-mqtt-node](https://hpk-at-git.github.io/esp32-mqtt-node)
 * Follow the instructions to connect your physical device
 
 ![](doc/flash.gif)
@@ -17,7 +17,7 @@ MQTT keywords addressed
 Note: Wifi connection is limited to WPA2-PSK with the pre-built firmware. Configure other options in the menu before buidling a custom firmware by (```idf.py menuconfig```)
 
 ## Use the Application after flashing
-* Point your browser to [https://aschiffler.github.io/esp32-mqtt-node](https://aschiffler.github.io/esp32-mqtt-node)
+* Point your browser to [https://hpk-at-git.github.io/esp32-mqtt-node](https://hpk-at-git.github.io/esp32-mqtt-node)
 * Follow the instructions to connect your physical device
 * Start the serial console in the browser
 * Typ in your information: wifi, broker (wss://, ws://, mqtt:// and mqtts:// is supported, eg. mqtts://mqtt.cedalo.cloud:8883), protocol version 5 || 3, login credentials
@@ -26,7 +26,7 @@ Note: Wifi connection is limited to WPA2-PSK with the pre-built firmware. Config
 
 
 ## Build and flash your own firmware right in the browser powered by gitpod.io
-[![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/aschiffler/esp32-mqtt-node)
+[![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/hpk-at-git/esp32-mqtt-node)
 
 * Open the development environment ```gitpod```` (github account needed)
 * Modify the code under ```main/app_main.c```
